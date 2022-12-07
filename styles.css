@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: gray;
+}
+
+.areaJogo {
+    height: 402px;
+    width: 402px;
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.divisao {
+    height: 134px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.quadrado {
+    display: flex;
+    width: 134px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    cursor: cell;
+    font-size: 70px;
+}
+
+.areaVencedor {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.vencedor {
+    margin-bottom: 10px;
+}
+
